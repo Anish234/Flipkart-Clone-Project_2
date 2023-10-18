@@ -1,0 +1,215 @@
+footer{
+    background-color: #172337;
+    height: 332;
+}
+.footer-row{
+    width: 90%;
+    /* height: 270px; */
+    display: flex;
+    padding: 30px 60px;
+}
+.footer-row2{
+    display: flex;
+    border-top: 1px solid #454d5e;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-col-1{
+    width: 15%;
+}
+.footer-col-2{
+    width: 15%;
+}
+.footer-col-3{
+    width: 15%;
+}
+.footer-col-4{
+    width: 10%;
+}
+.footer-col-5{
+    width: 20%;
+    border-left:1px solid #454d5e ;
+    
+    padding-left: 25px;
+    /* padding: 5% 0 5% 25px; */
+}
+.footer-col-6{
+    width: 20%;
+    padding-left: 50px;
+}
+.footer-heading p{
+ color: #878787;
+ font-size: 13px;
+ font-weight: 400;
+ text-align: left;
+ padding: 10px 0px;
+ cursor: pointer;
+ text-transform: uppercase;
+}
+.footer-col-5 .footer-heading  p{
+    font-size: 11px;
+}
+.footer-col-6 .footer-heading  p{
+    font-size: 12px;
+} 
+
+.footer-list  {
+    margin-top: -5%;
+}
+.footer-list a{
+    text-align: left;
+    display: block;
+    text-decoration: none;
+   text-transform: capitalize;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 0px;
+}
+.footer-list a:hover{
+    text-decoration: underline;
+}
+.footer-list  p{
+    text-align: left;
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-weight: 100px;
+    padding:5px 0px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.footer-list-address p{
+    text-align: left;
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-weight: 100px;
+   
+     cursor: pointer;
+    
+}
+.footer-list-address span{
+    color: rgb(60,109,245);
+    cursor: pointer;
+}
+.footer-row2-col p{
+  color: white;
+    font-size: 15px;
+    font-weight: 100px;
+    line-height: 20px;
+     cursor: pointer;
+      text-align: center;
+      line-height: 50px;
+      letter-spacing: .7px;
+}
+.fa-shopping-bag, .fa-star, .fa-gift ,.fa-question-circle{
+    color: #ffd700;
+    cursor: pointer;
+   padding-right: 10px;
+   font-size: 15px;
+}
+@media only screen and (max-width:600px) {
+    .footer-row2-col p {
+        color: white;
+        font-size: 9px;
+        font-weight: 100px;
+        line-height: 20px;
+        cursor: pointer;
+        text-align: center;
+        /* line-height: 50px; */
+        /* letter-spacing: .7px; */
+    }
+    .footer-row2-col {
+        /* width: 14%; */
+        /* padding: 0 -10% 0 -10%; */
+    }
+    .fa-shopping-bag, .fa-star, .fa-gift ,.fa-question-circle{
+        color: #ffd700;
+        cursor: pointer;
+       padding-right: 2px;
+       font-size: 9px;
+    }
+    .footer-row2 {
+        display: flex;
+        border-top: 1px solid #454d5e;
+        justify-content: space-between;
+        align-items: center;
+        /* width: 140%; */
+        width: 128%;
+        padding-right: 21%;
+    }
+    .footer-row2-col img {
+        /* padding-right: 10%; */
+        width: 55%;
+        /* padding: 0% 10% 0 10%; */
+    }
+    .footer-list a {
+        text-align: left;
+        display: block;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: white;
+        font-size: 8px;
+        font-weight: 400;
+        padding: 1px 2px;
+    }
+    .footer-col-1 {
+        width: 13%;
+    }
+    .footer-heading p {
+        color: #878787;
+        font-size: 9px;
+        font-weight: 400;
+        text-align: left;
+        padding: 10px 0px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    .footer-list {
+        margin-top: -11%;
+    }
+    .footer-col-5 .footer-heading p {
+        font-size: 9px;
+    }
+    .footer-list p {
+        text-align: left;
+        display: block;
+        color: white;
+        font-size: 9px;
+        font-weight: 100px;
+        padding: 5px 0px;
+        line-height: 14px;
+        cursor: pointer;
+    }
+    .footer-col-5 {
+        width: 30%;
+        border-left: 1px solid #454d5e;
+        padding-left: 16px;
+        /* padding: 5% 0 5% 25px; */
+    }
+    .footer-col-6 .footer-heading p {
+        font-size: 8px;
+    }
+    .footer-list-address p {
+        text-align: left;
+        display: block;
+        color: white;
+        font-size: 7px;
+        font-weight: 100px;
+        cursor: pointer;
+    }
+    .footer-col-6 {
+        width: 31%;
+        padding-left: 5px;
+    }
+    .footer-list-address {
+        margin-top: -6%;
+    }
+    .footer-row {
+        width: 90%;
+        /* height: 270px; */
+        display: flex;
+        padding: 9px 23px;
+    }
+}
