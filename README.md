@@ -58,7 +58,7 @@ Flipkart is India’s leading online shopping site. It offers customers the ulti
 
 
 # Getting Started with Create React App
-* Clone the Repository: Clone this repository to your local machine using git clone https://github.com/Anish234/SonyLiv-Clone---React-Project-1---9xowl85p2y99 .
+* Clone the Repository: Clone this repository to your local machine using git clone https://github.com/Anish234/Flipkart-Clone-Project_2 .
 
 * Install Dependencies: Navigate to the project directory and install the required dependencies using npm install.
 
